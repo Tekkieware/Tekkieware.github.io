@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 10em;
+    background-color: rgb(118, 118, 255);
+}
+
+.content{
+    background: linear-gradient(to bottom,rgb(90, 90, 255), rgb(75, 75, 255), rgb(159, 159, 252));
+    float: left;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    width: 100%;    
+    
+}
+
+.profile-box{
+    display: inline-block;
+    width: 40%;         
+    margin-top: 4.5%;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    height: 100%;
+    
+}
+
+.name-card{
+    text-align: center;
+    margin-top: 100px  ;
+    margin-left: 50px;
+    background: rgb(242, 240, 252);
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    padding-bottom: 150px;
+}
+
+.profile-image{
+    margin-top: -120px;
+    border: 10px solid rgb(242, 240, 252);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+}
+
+.username{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(75, 75, 255);
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0;
+}
+
+.track{
+    font-weight: 100;
+    font-size: 15px;
+    font-family: cursive;
+   color: rgb(75, 75, 255);
+   line-height: 0;
+}
+
+.time-box{
+    text-align: center;
+    display: inline-block;
+    width: 40%;         
+    
+}
+
+.day{
+    color: rgb(242, 240, 252);
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.time{
+    font-size: 30px;
+    color: rgb(242, 240, 252);
+    font-family: cursive;
+    line-height: 0;
+}
+
+.github{
+    border: 1px solid blue;
+    color: blue;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(177, 177, 177);
+}
+
+.github:hover{
+    background-color: rgb(242, 240, 252);
+}
+
+
+@media screen and (max-width: 900px) {
+    .profile-box{
+        display: block;
+        width: 80%;         
+        margin-top: 2.5%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        height: 100%;
+        
+    }
+    .time-box{
+        text-align: center;
+        display: block;
+        width: 80%;     
+        margin-left: 8.5%;
+        margin-right: 2.5%;
+        height: 100%;    
+        
+    }
+
+    body{
+        padding: 2em;
+        background-color: rgb(118, 118, 255);
+    }
+    .name-card{
+        padding-bottom: 40px;
+    }
+  }
