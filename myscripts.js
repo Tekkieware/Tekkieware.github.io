@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     const day = weekday[now.getDay()];
     document.getElementById("day").innerHTML = day
-    document.getElementById("time").innerHTML = `${hours}:${minutes}:${seconds}.${milliseconds}`       
+    document.getElementById("time").innerHTML = now.getTime()    
 
 })
 
